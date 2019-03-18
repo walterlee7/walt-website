@@ -4,40 +4,40 @@ class Contact extends Component {
 
     render() {
         return (
-            <section id="contact" class="contact-section bg-black">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 mb-3 mb-md-0">
-                            <div class="card py-4 h-30">
-                                <div class="card-body text-center">
-                                    <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                    <h4 class="text-uppercase m-0">Github</h4>
-                                    <hr class="my-4" />
-                                    <div class="small text-black-50">...</div>
+            <section id="contact" className="contact-section bg-black">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-4 mb-3 mb-md-0">
+                            <div className="card py-4 h-30">
+                                <div className="card-body text-center">
+                                    <i className="fas fa-map-marked-alt text-primary mb-2"></i>
+                                    <h4 className="text-uppercase m-0">Github</h4>
+                                    <hr className="my-4" />
+                                    <div className="small text-black-50"><a href="https://github.com/walterlee7">walterlee7</a></div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 mb-3 mb-md-0">
-                            <div class="card py-4 h-30">
-                                <div class="card-body text-center">
-                                    <i class="fas fa-envelope text-primary mb-2"></i>
-                                    <h4 class="text-uppercase m-0">Email</h4>
-                                    <hr class="my-4" />
-                                    <div class="small text-black-50">
+                        <div className="col-md-4 mb-3 mb-md-0">
+                            <div className="card py-4 h-30">
+                                <div className="card-body text-center">
+                                    <i className="fas fa-envelope text-primary mb-2"></i>
+                                    <h4 className="text-uppercase m-0">Email</h4>
+                                    <hr className="my-4" />
+                                    <div className="small text-black-50">
                                         <a href="#">walter.lee9@gmail.com</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 mb-3 mb-md-0">
-                            <div class="card py-4 h-30">
-                                <div class="card-body text-center">
-                                    <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                    <h4 class="text-uppercase m-0">LinkedIn</h4>
-                                    <hr class="my-4" />
-                                    <div class="small text-black-50">...</div>
+                        <div className="col-md-4 mb-3 mb-md-0">
+                            <div className="card py-4 h-30">
+                                <div className="card-body text-center">
+                                    <i className="fas fa-mobile-alt text-primary mb-2"></i>
+                                    <h4 className="text-uppercase m-0">LinkedIn</h4>
+                                    <hr className="my-4" />
+                                    <div className="small text-black-50"><a href="https://www.linkedin.com/in/walterlee7/">walterlee7</a></div>
                                 </div>
                             </div>
                         </div>
