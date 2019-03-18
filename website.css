@@ -1,180 +1,35 @@
 .heroform {
-    background-color: white;
+    background-color: #171717;
     border: 1px solid black;
     margin: 0 auto;
-    width: 60%;
-    background-image: url("bootstrap/img/star.jpeg");
+    width: 100%;
+    background-image: url("bootstrap/img/stars.jpg");
     background-repeat: no-repeat;
-    background-size: 2500px 1000px;
+    background-size: 1600px 1600px;
     background-position: center;
 }
 
-.hero-left {
+.hero {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: auto;
-    padding: 8px;
+    padding: 250px;
 }
 
-.hero-sq {
-    float: left;
+.btn-style {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid rgb(0, 255, 98);
+    padding: 0px;
 }
 
-.hero-left:hover .hero-sq, .hero-left:hover .hero-sq1, .hero-left:hover .hero-sq2, .hero-left:hover .hero-sq3, .hero-left:hover .hero-sq4, .hero-left:hover .hero-sq5, .hero-left:hover .hero-sq6, .hero-left:hover .hero-sq7 {
-    -webkit-transform: translateX(300px);
-            transform: translateX(300px);
-  }
-
-.hero-sq1 {
-    width: 30px;
-    height: 50px;
-    background: rgb(0, 102, 255);
-    -webkit-transition: all 2.5s linear;
-    transition: all 2.5s linear;
-    -webkit-transition-delay: 0.15s;
-            transition-delay: 0.15s;
-    border-radius: 10px;
+.about-style {
+    padding-top: 0px;
 }
 
-div.hero-sq1:hover {
-    width: 200px;
-}
 
-.hero-sq2 {
-    width: 30px;
-    height: 50px;
-    background: rgb(0, 255, 55);
-    -webkit-transition: all 2.5s ease;
-    transition: all 2.5s ease;
-    -webkit-transition-delay: 0.15s;
-            transition-delay: 0.15s;
-    border-radius: 20px;
-}
 
-div.hero-sq2:hover {
-    width: 200px;
-}
 
-.hero-sq3 {
-    width: 30px;
-    height: 50px;
-    background: rgb(0, 195, 255);
-    -webkit-transition: all 2.5s ease-in;
-    transition: all 2.5s ease-in;
-    -webkit-transition-delay: 0.15s;
-            transition-delay: 0.15s;
-    border-radius: 30px;
-}
-
-div.hero-sq3:hover {
-    width: 200px;
-}
-
-.hero-sq4 {
-    width: 30px;
-    height: 50px;
-    background: rgb(153, 151, 151);
-    -webkit-transition: all 1.5s ease-out;
-    transition: all 1.5s ease-out;
-    -webkit-transition-delay: 0.15s;
-            transition-delay: 0.15s;
-    border-radius: 40px;
-}
-
-div.hero-sq4:hover {
-    width: 200px;
-}
-
-.hero-sq5 {
-    width: 30px;
-    height: 50px;
-    background: rgb(0, 255, 64);
-    -webkit-transition: all 5.5s ease-in-out;
-    transition: all 5.5s ease-in-out;
-    -webkit-transition-delay: 0.15s;
-            transition-delay: 0.15s;
-    border-radius: 50px;
-}
-
-div.hero-sq5:hover {
-    width: 200px;
-}
-
-.hero-sq6 {
-    width: 30px;
-    height: 50px;
-    background: rgb(0, 183, 255);
-    -webkit-transition: all 4.5s cubic-bezier(0, 1, 0.98, 0);
-    transition: all 4.5s cubic-bezier(0, 1, 0.98, 0);
-    -webkit-transition-delay: 0.15s;
-            transition-delay: 0.15s;
-    border-radius: 60px;
-}
-
-div.hero-sq6:hover {
-    width: 200px;
-}
-
-.hero-sq7 {
-    width: 30px;
-    height: 50px;
-    background: rgb(89, 0, 255);
-    -webkit-transition: all 4.5s linear;
-    transition: all 4.5s linear;
-    -webkit-transition-delay: 0.15s;
-            transition-delay: 0.15s;
-    border-radius: 70px;
-}
-
-div.hero-sq7:hover {
-    width: 200px;
-}
-
-.hero-right {
-    height: 100%;
-    width: 100%;
-    text-align: right;
-    margin-bottom: 20px;
-
-}
-
-.text-title {
-    color: rgb(13, 17, 26);
-    font-size: 40pt;
-    background-color: white;
-    display: inline;
-    border-radius: 10px;
-    padding: 2px;
-    border: 1px solid;
-    -webkit-box-shadow: 5px 8px;
-            box-shadow: 5px 8px;
-    -webkit-transition: all 5s ease-in-out;
-    transition: all 5s ease-in-out;
-}
-
-.text-uppercase {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    background-color: white;
-    display: inline;
-    border-radius: 10px;
-    padding: 4px;
-    border: 1px solid;
-    -webkit-box-shadow: 5px 8px;
-            box-shadow: 5px 8px;
-    -webkit-transition: all 4s ease-in-out;
-    transition: all 4s ease-in-out;
-}
-
-.hero-text {
-    border-radius: 10px;
-    padding: 8px;
-    background-color: white;
-    display: inline;
-    border: 1px solid;
-    -webkit-box-shadow: 5px 8px;
-            box-shadow: 5px 8px;
-    -webkit-transition: all 3s ease-in-out;
-    transition: all 3s ease-in-out;
-}
