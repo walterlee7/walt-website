@@ -6,8 +6,6 @@ class Projects extends Component {
         return (
             <section id="projects" className="projects-section bg-light">
                 <div className="container">
-
-
                     <div className="row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="col-xl-8 col-lg-7">
                             <img className="img-fluid mb-3 mb-lg-0" src="bootstrap/img/bg-masthead.jpg" alt="" />
@@ -19,7 +17,6 @@ class Projects extends Component {
                             </div>
                         </div>
                     </div>
-
 
                     <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
                         <div className="col-lg-6">
@@ -37,7 +34,6 @@ class Projects extends Component {
                             </div>
                         </div>
                     </div>
-
 
                     <div className="row justify-content-center no-gutters">
                         <div className="col-lg-6">

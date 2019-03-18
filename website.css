@@ -1,11 +1,97 @@
+.body {
+
+    overflow:hidden;
+
+    background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%),
+    #d2d2d2 url(http://stash.rachelnabors.com/24ways2012/background_clouds.png);
+}
+
+.tuna {
+    animation: walk-cycle 1s steps(12) infinite;
+    background: url(http://stash.rachelnabors.com/img/codepen/tuna_sprite.png) 0 0 no-repeat;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    margin-left: -200px;
+    transform: translateZ(0); /* offers a bit of a performance boost by pushing some of this processing to the GPU in Safari*/
+  }
+
+  @keyframes walk-cycle {
+    0% {background-position: 0 0; }
+    100% {background-position: 0 -2391px; }
+  }
+
+  .foreground, .midground, .background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    /* translate3d: (0,0,0); */
+  }
+
+  .foreground {
+    animation: parallax_fg linear 10s infinite both;
+    background:  url(http://stash.rachelnabors.com/24ways2012/foreground_grass.png) 0 100% repeat-x;
+    z-index: 3;
+  }
+
+  @keyframes parallax_fg {
+    0% { background-position: -3584px 100%;}
+    100% {background-position: 0 100%; }
+  }
+
+  .midground {
+    animation: parallax_mg linear 20s infinite;
+    background:  url(http://stash.rachelnabors.com/24ways2012/midground_grass.png) 0 100% repeat-x;
+    z-index: 2;
+  }
+
+  @keyframes parallax_mg {
+    0% { background-position: -3000px 100%;}
+    100% {background-position: 0 100%; }
+  }
+
+  .background {
+    background-image:
+      url(http://stash.rachelnabors.com/24ways2012/background_mountain5.png),
+      url(http://stash.rachelnabors.com/24ways2012/background_mountain4.png),
+      url(http://stash.rachelnabors.com/24ways2012/background_mountain3.png),
+      url(http://stash.rachelnabors.com/24ways2012/background_mountain2.png),
+      url(http://stash.rachelnabors.com/24ways2012/background_mountain1.png);
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    z-index: 1;
+    animation: parallax_bg linear 40s infinite;
+  }
+
+  @keyframes parallax_bg {
+    100% { background-position-x: 2400px, 2000px, 1800px, 1600px, 1200px;}
+  }
+
+/* header component */
+.header {
+    height: 100%;
+    overflow: hidden;
+}
+
+.btn-header {
+    background-image: url("bootstrap/img/Forest.jpg");
+    color: white;
+}
+
+
+/* section component */
+
 .heroform {
     background-color: #171717;
     border: 1px solid black;
     margin: 0 auto;
     width: 100%;
-    background-image: url("bootstrap/img/stars.jpg");
+    background-image: url("bootstrap/img/Forest.jpg");
     background-repeat: no-repeat;
-    background-size: 1600px 1600px;
+    background-size: 1400px 1200px;
     background-position: center;
 }
 
@@ -13,21 +99,21 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: auto;
-    padding: 250px;
+    /* margin: auto; */
+    padding: 195px;
+    max-width: 100%;
+    height: auto;
 }
-
-.btn-style {
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 100px solid rgb(0, 255, 98);
-    padding: 0px;
-}
-
 .about-style {
     padding-top: 0px;
+}
+
+.p-style {
+    background-color: rgb(172, 172, 172);
+    width: 700px;
+    height: 400px;
+    color: white;
+
 }
 
 

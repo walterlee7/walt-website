@@ -8,12 +8,8 @@ class Section extends Component {
                 <div className="heroform">
                     <div className="hero">
                         <img src="bootstrap/img/walt.jpg" height="400" width="250" />
-
+                        <p className="p-style">Welcome to my Website!</p>
                     </div>
-                    <div>
-                        <a href="#projects" className="btn btn-style js-scroll-trigger"></a>
-                    </div>
-
                 </div>
             </section>
         );
