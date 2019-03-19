@@ -1,12 +1,34 @@
 .body {
-
     overflow:hidden;
-
     background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%),
     #d2d2d2 url(http://stash.rachelnabors.com/24ways2012/background_clouds.png);
 }
 
+/* nav component */
+
+#mainNav.navbar-shrink {
+    background-color: black !important;
+  }
+
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: white !important;
+  }
+  #mainNav.navbar-shrink .nav-link:active {
+    color: white !important;
+  }
+
+  #mainNav.navbar-shrink .nav-link {
+    color: red !important;
+  }
+
+  #mainNav.navbar-shrink .nav-link.active {
+    color: white !important;
+    border-bottom: 0.25rem solid white !important;;
+  }
+
+
 /* header component */
+
 .tuna {
     animation: walk-cycle 1s steps(12) infinite;
     background: url(http://stash.rachelnabors.com/img/codepen/tuna_sprite.png) 0 0 no-repeat;
@@ -86,28 +108,20 @@
 
 /* section component */
 
-.heroform {
+/* .heroform {
     background-color: #171717;
     border: 1px solid black;
     margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    background-image: url("bootstrap/img/Forest.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-}
+} */
 
 .hero {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: auto;
-    
-    padding: 195px;
-    max-width: 100%;
-    height: auto;
+    position: absolute;
 }
+
 .about-style {
     padding-top: 0px;
     height: 100%;
