@@ -7,3 +7,5 @@ Website theme is based on Grayscale Bootstrap 4 from https://startbootstrap.com/
 Cat walking animation by Rachel Nabors https://codepen.io/rachelnabors/.
 
 Rainbow line animation by Matei Copot https://codepen.io/towc/.
+
+Typewriter CSS effect by Geoff Graham http://geoffgraham.me/.

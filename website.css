@@ -4,6 +4,18 @@
     #d2d2d2 url(http://stash.rachelnabors.com/24ways2012/background_clouds.png);
 }
 
+* {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+  *:before,
+  *:after {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+
 /* nav component */
 
 #mainNav.navbar-shrink {
@@ -28,6 +40,8 @@
 
 
 /* header component */
+
+
 
 .tuna {
     animation: walk-cycle 1s steps(12) infinite;
@@ -127,13 +141,52 @@
     height: 100%;
 }
 
-.p-style {
-    background-color: rgb(172, 172, 172);
+.w-style {
+    /* background-color: rgb(14, 13, 13);
     width: 700px;
-    height: 400px;
+    height: 400px; */
     color: white;
+    padding-left: 1em;
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: bold;
+    font-size: 1.4vw;
 
+    /* opacity: 0.5; */
 }
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+  .typewriter h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 183, 255); }
+  }
 
 
 
