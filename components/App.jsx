@@ -5,7 +5,7 @@ import Header from './header';
 import Section from './section';
 import Projects from './projects';
 import Contact from './contact';
-import Footer from './footer';
+
 
 
 class App extends Component {
@@ -18,7 +18,6 @@ class App extends Component {
                     <Section />
                     <Projects />
                     <Contact />
-                    <Footer />
                 </Fragment>
             </Router>
 

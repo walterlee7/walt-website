@@ -4,6 +4,7 @@
     #d2d2d2 url(http://stash.rachelnabors.com/24ways2012/background_clouds.png);
 }
 
+
 * {
     -webkit-box-sizing: content-box;
        -moz-box-sizing: content-box;
@@ -40,8 +41,6 @@
 
 
 /* header component */
-
-
 
 .tuna {
     animation: walk-cycle 1s steps(12) infinite;
@@ -147,16 +146,11 @@
 }
 
 .w-style {
-    /* background-color: rgb(14, 13, 13);
-    width: 700px;
-    height: 400px; */
     color: white;
     padding-left: 1em;
     font-family: Trebuchet MS, sans-serif;
     font-weight: bold;
     font-size: 1.4vw;
-
-    /* opacity: 0.5; */
 }
 
 .typewriter h1 {
@@ -191,10 +185,23 @@
     position: absolute;
     overflow: auto;
     height: auto;
-    padding-top: 300px;
+    padding-top: 430px;
     padding-left: 120px;
     text-align: left;
   }
+
+/* projects component */
+
+#projects {
+    max-height: 800px;
+    height: 80%;
+    padding-bottom: 0px;
+    top: 0;
+    left: 0;
+}
+
+
+/* contact component */
 
 
 
