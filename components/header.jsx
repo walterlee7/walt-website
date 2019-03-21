@@ -11,7 +11,7 @@ class Header extends Component {
                             <div className="mx-auto text-center">
                                 <h1 className="mx-auto my-0 text-uppercase">Walter Lee</h1>
                                 <h2 className="text-white-50 mx-auto mt-2 mb-5">Full Stack Software Developer</h2>
-                                <a href="#about" className="btn btn-header js-scroll-trigger">Next</a>
+                                <a href="#about" className="btn btn-header js-scroll-trigger">Hire Me</a>
                             </div>
                         </div>
                     </div>
