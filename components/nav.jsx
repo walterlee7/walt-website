@@ -5,7 +5,8 @@ class Nav extends Component {
         return (
             <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
                 <div className="container">
-                    {/* <a className="navbar-brand js-scroll-trigger" href="#page-top">Welcome</a> */}
+                    <a className="iconBtn git-icon-style" href="https://github.com/walterlee7"></a>
+                    <a className="iconBtn link-icon-style" href="https://www.linkedin.com/in/walterlee7/"></a>
                     <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
                         <i className="fas fa-bars"></i>
@@ -23,7 +24,7 @@ class Nav extends Component {
                                 <a className="nav-link js-scroll-trigger" href="#projects">Projects</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                                <a className="nav-link js-scroll-trigger" href="#contact">Recipe</a>
                             </li>
                         </ul>
                     </div>
