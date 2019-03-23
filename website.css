@@ -60,7 +60,7 @@
   }
 
   #mainNav.navbar-shrink .nav-link {
-    color: red !important;
+    color: rgb(0, 132, 255) !important;
   }
 
   #mainNav.navbar-shrink .nav-link.active {
@@ -69,8 +69,8 @@
   }
 
   #mainNav .navbar-toggler {
-    color: black !important;
-    border: 1px solid black !important;
+    color: rgb(0, 132, 255) !important;
+    border: 1px solid rgb(0, 132, 255) !important;
   }
 
 /* header component */
@@ -227,11 +227,12 @@
 }
 
 .projects-section {
-    padding: 1rem 0 !important;
+    padding: 0 !important;
   }
 
 /* details component */
 
 #details{
+    padding-top: 1em;
     height: 100%;
 }
