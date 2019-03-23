@@ -4,7 +4,7 @@ import Nav from './nav';
 import Header from './header';
 import Section from './section';
 import Projects from './projects';
-import Contact from './contact';
+import Details from './details';
 
 
 
@@ -17,7 +17,7 @@ class App extends Component {
                     <Header />
                     <Section />
                     <Projects />
-                    <Contact />
+                    <Details />
                 </Fragment>
             </Router>
 

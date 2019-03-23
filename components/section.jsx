@@ -32,10 +32,12 @@ class Section extends Component {
                     </div>
 
                     <div className="l-style">
+                        <h1 className="w-style">Email:</h1>
+                        <h3 className="w-style">walter.lee9@gmail.com</h3>
                         <h1 className="w-style">Languages:</h1>
                         <h3 className="w-style">View - ReactJS, React Native, HTML, CSS, JavaScript, C#, Python, SASS</h3>
                         <h3 className="w-style">Framework - NodeJS, Django, ASP.NET</h3>
-                        <h3 className="w-style">Database - MySQL</h3>
+                        <h3 className="w-style">Database - MySQL, MS SQL Server</h3>
                     </div>
                 </div>
 
