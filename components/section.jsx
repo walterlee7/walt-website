@@ -29,25 +29,22 @@ class Section extends Component {
                             <h2 className="w-style">
                                 and always enjoy learning new languages.</h2>
                         </div>
+
+                        <div className="l-style">
+                            <h1 className="w-style">Email:</h1>
+                            <h3 className="w-style">walter.lee9@gmail.com</h3>
+                            <br />
+                            <h1 className="w-style">Languages:</h1>
+                            <h3 className="w-style">View - ReactJS, React Native, HTML, CSS, JavaScript, C#, Python, SASS</h3>
+                            <h3 className="w-style">Framework - Bootstrap, NodeJS, Django, ASP.NET</h3>
+                            <h3 className="w-style">Database - MySQL, MS SQL Server</h3>
+                        </div>
                     </div>
 
-                    <div className="l-style">
-                        <h1 className="w-style">Email:</h1>
-                        <h3 className="w-style">walter.lee9@gmail.com</h3>
-                        <br />
-                        <h1 className="w-style">Languages:</h1>
-                        <h3 className="w-style">View - ReactJS, React Native, HTML, CSS, JavaScript, C#, Python, SASS</h3>
-                        <h3 className="w-style">Framework - Bootstrap, NodeJS, Django, ASP.NET</h3>
-                        <h3 className="w-style">Database - MySQL, MS SQL Server</h3>
-                    </div>
+
                 </div>
 
-                <canvas id='c' style={{
-                    top: + '0',
-                    left: + '0',
-                }}>
 
-                </canvas>
 
             </section >
         );

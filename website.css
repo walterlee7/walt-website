@@ -145,7 +145,7 @@
 }
 
 .btn-header {
-    background-color: rgb(0, 183, 255);
+    background-color: rgb(7, 7, 7);
     background-size: 1600px 500px;
     color: white;
     border-radius: 15px;
@@ -155,21 +155,20 @@
 /* section component */
 
 .hero {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     margin: auto;
-    position: absolute;
+    background-color: midnightblue;
 }
 
 .about-style {
-    padding-top: 0px;
     height: 100%;
 }
 
-.w-img{
-    padding-top: 70px;
-    padding-left: 40px;
+.about-section {
+    padding-top: 2em !important;
+}
+
+.w-img {
+    padding: 2em;
 }
 
 .w-style {
@@ -177,7 +176,7 @@
     padding-left: 1em;
     font-family: Trebuchet MS, sans-serif;
     font-weight: bold;
-    font-size: 1.4vw;
+    font-size: 18px;
 }
 
 .typewriter h1 {
@@ -189,7 +188,7 @@
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
 
-    padding-top: 80px;
+    padding: 2em;
   }
 
   .typewriter h2 {
@@ -209,12 +208,8 @@
   }
 
   .l-style {
-    position: absolute;
-    overflow: auto;
-    height: auto;
-    padding-top: 430px;
-    padding-left: 40px;
-    text-align: left;
+    text-align: center;
+    padding: 2em;
   }
 
 /* projects component */
@@ -240,6 +235,12 @@
 
 #pro-card {
     background-color: rgba(255, 255, 255, 0.815);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    width: 80%;
 }
 
 h4 {
@@ -262,7 +263,19 @@ h4 {
 
 /* details component */
 
-#details{
-    padding-top: 1.5em;
+#details {
     height: 100%;
+}
+
+#details-style {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(12, 12, 12);
+    width: 50%;
+    color: white;
+    padding: 2.5em;
+    padding-top: 8em;
 }
