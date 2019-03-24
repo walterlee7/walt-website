@@ -15,9 +15,10 @@ class Details extends Component {
                     <p style={{ fontSize: + '15' }}>Rainbow line animation by <a href="https://codepen.io/towc/">Matei Copot</a>.</p>
                     <p style={{ fontSize: + '15' }}>Typewriter CSS effect by <a href="http://geoffgraham.me/">Geoff Graham</a>.</p>
                     <br />
-                    <p>Walter Lee Website: March 17, 2019.</p>
+                    <p style={{ fontSize: + '20' }}>Walter Lee Website: March 17, 2019.</p>
+                    <div id="clockbox"></div>
                 </div>
-                <div id="clockbox"></div>
+
             </section>
         );
     }

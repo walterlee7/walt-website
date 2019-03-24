@@ -37,7 +37,7 @@ class Section extends Component {
                         <br />
                         <h1 className="w-style">Languages:</h1>
                         <h3 className="w-style">View - ReactJS, React Native, HTML, CSS, JavaScript, C#, Python, SASS</h3>
-                        <h3 className="w-style">Framework - NodeJS, Django, ASP.NET</h3>
+                        <h3 className="w-style">Framework - Bootstrap, NodeJS, Django, ASP.NET</h3>
                         <h3 className="w-style">Database - MySQL, MS SQL Server</h3>
                     </div>
                 </div>

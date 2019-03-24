@@ -224,7 +224,37 @@
     padding-bottom: 0px;
     top: 0;
     left: 0;
+    background-color: black;
 }
+
+#p-scroll {
+    padding: 20px;
+    overflow: scroll;
+    height: 90%;
+    background-image: url("bootstrap/img/marble.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    color: white;
+}
+
+#pro-card {
+    background-color: rgba(255, 255, 255, 0.815);
+}
+
+h4 {
+    color: black;
+}
+
+#pro-para {
+    color: black;
+}
+
+@media (min-width: 992px) {
+    .projects-section .featured-text {
+      border-left: 0.5rem solid black !important;
+    }
+  }
 
 .projects-section {
     padding: 0 !important;
@@ -233,6 +263,6 @@
 /* details component */
 
 #details{
-    padding-top: 1em;
+    padding-top: 1.5em;
     height: 100%;
 }
