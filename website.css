@@ -157,6 +157,7 @@
 .hero {
     margin: auto;
     background-color: midnightblue;
+    padding-bottom: 2em;
 }
 
 .about-style {
@@ -185,10 +186,10 @@
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation:
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
+      typing 7s steps(40, end);
+      /* blink-caret .75s step-end infinite; */
 
-    padding: 2em;
+    padding: 1em;
   }
 
   .typewriter h2 {
@@ -197,8 +198,8 @@
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation:
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
+      typing 7s steps(40, end);
+      /* blink-caret .75s step-end infinite; */
   }
 
   /* The typing effect */

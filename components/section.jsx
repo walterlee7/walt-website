@@ -27,30 +27,20 @@ class Section extends Component {
                                 I like working with Frontend and Backend languages
                             </h2>
                             <h2 className="w-style">
-                                and always enjoy learning new languages.</h2>
-                        </div>
-
-                        <div className="l-style">
+                                and always enjoy learning new languages.
+                                </h2>
                             <h1 className="w-style">Email:</h1>
-                            <h3 className="w-style">walter.lee9@gmail.com</h3>
-                            <br />
+                            <h2 className="w-style">walter.lee9@gmail.com</h2>
                             <h1 className="w-style">Languages:</h1>
-                            <h3 className="w-style">View - ReactJS, React Native, HTML, CSS, JavaScript, C#, Python, SASS</h3>
-                            <h3 className="w-style">Framework - Bootstrap, NodeJS, Django, ASP.NET</h3>
-                            <h3 className="w-style">Database - MySQL, MS SQL Server</h3>
+                            <h2 className="w-style">View - ReactJS, React Native, HTML, CSS, JavaScript, C#, Python, SASS</h2>
+                            <h2 className="w-style">Framework - Bootstrap, NodeJS, Django, ASP.NET</h2>
+                            <h2 className="w-style">Database - MySQL, MS SQL Server</h2>
                         </div>
                     </div>
-
-
                 </div>
-
-
-
             </section >
         );
     }
 }
-
-
 
 export default Section;
