@@ -1,5 +1,7 @@
 .body {
-    overflow:hidden;
+    overflow: visible;
+    overflow-x: hidden;
+    max-width: 100%;
     background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%),
     #d2d2d2 url(http://stash.rachelnabors.com/24ways2012/background_clouds.png);
 }
@@ -74,6 +76,10 @@
   }
 
 /* header component */
+
+.masthead {
+    /* position: unset !important; */
+}
 
 .tuna {
     animation: walk-cycle 1s steps(12) infinite;
@@ -155,9 +161,17 @@
 /* section component */
 
 .hero {
-    margin: auto;
+    /* margin: auto; */
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     background-color: midnightblue;
-    padding-bottom: 2em;
+    width: auto;
+    padding-top: 4em;
+    padding-bottom: 15em;
+    overflow-y: visible;
+
 }
 
 .about-style {
@@ -174,31 +188,36 @@
 
 .w-style {
     color: white;
-    padding-left: 1em;
     font-family: Trebuchet MS, sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .typewriter h1 {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation:
-      typing 7s steps(40, end);
+      typing 5s steps(40, end);
       /* blink-caret .75s step-end infinite; */
 
     padding: 1em;
   }
 
   .typewriter h2 {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation:
-      typing 7s steps(40, end);
+      typing 5s steps(40, end);
       /* blink-caret .75s step-end infinite; */
   }
 
@@ -208,10 +227,6 @@
     to { width: 100% }
   }
 
-  .l-style {
-    text-align: center;
-    padding: 2em;
-  }
 
 /* projects component */
 
@@ -226,6 +241,7 @@
 #p-scroll {
     padding: 20px;
     overflow: scroll;
+    overflow-x: hidden;
     height: 90%;
     background-image: url("bootstrap/img/marble.jpg");
     background-repeat: no-repeat;
@@ -266,6 +282,7 @@ h4 {
 
 #details {
     height: 100%;
+    /* overflow-y: visible; */
 }
 
 #details-style {
@@ -274,9 +291,9 @@ h4 {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid rgb(12, 12, 12);
     width: 50%;
     color: white;
     padding: 2.5em;
-    padding-top: 8em;
+    padding-top: 6em;
+
 }

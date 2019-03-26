@@ -1,4 +1,4 @@
-Walter Lee Project Website
+Walter Lee Project Website: March 17, 2019.
 
 View is built with ReactJS without using create-react-app.
 

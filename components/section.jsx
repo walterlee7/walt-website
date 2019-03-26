@@ -30,7 +30,7 @@ class Section extends Component {
                                 and always enjoy learning new languages.
                                 </h2>
                             <h1 className="w-style">Email:</h1>
-                            <h2 className="w-style">walter.lee9@gmail.com</h2>
+                            <h2 className="w-style">walter.lee.developer@gmail.com</h2>
                             <h1 className="w-style">Languages:</h1>
                             <h2 className="w-style">View - ReactJS, React Native, HTML, CSS, JavaScript, C#, Python, SASS</h2>
                             <h2 className="w-style">Framework - Bootstrap, NodeJS, Django, ASP.NET</h2>
