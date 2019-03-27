@@ -167,8 +167,7 @@ html {
 
 #about {
     background-color: black;
-    padding: 1em;
-    padding-bottom: 4em;
+    padding-bottom: 18em;
     height: 100%;
     background-image: url("bootstrap/img/tech.jpg");
     background-repeat: repeat;
@@ -228,7 +227,7 @@ html {
     animation: typing 5s steps(40, end);
       /* blink-caret .75s step-end infinite; */
     padding: 0.5em;
-    font-size: 18px;
+    font-size: 19px;
 
   }
 
@@ -241,8 +240,7 @@ html {
     /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation: typing 5s steps(40, end);
-      /* blink-caret .75s step-end infinite; */
-
+    font-size: 16px;
   }
 
   /* The typing effect */
@@ -252,15 +250,20 @@ html {
   }
 
   .contact {
-    border: 0.3em solid rgb(121, 120, 120);
-    border-radius: 25px;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    margin-top: 0.5em;
     margin-bottom: 0.5em;
+    text-align: center;
+  }
+
+  .contact-span {
     background-color: rgb(63, 143, 196);
+    padding: 0.25em;
+    border: 0.1em solid rgb(121, 120, 120);
+    border-radius: 15px;
   }
 
   .languages {
@@ -280,6 +283,7 @@ html {
     background-color: rgb(122, 122, 122);
     color: white;
     border-radius: 15px;
+    font-size: 16px;
 }
 
 
@@ -293,8 +297,81 @@ html {
     background-color: black;
 }
 
+.pro-title {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-size: 45px;
+    white-space: nowrap;
+}
+
+.pro-title-span {
+    background-color: rgba(24, 152, 156, 0.979);
+    border-radius: 5px;
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+}
+
+#pro-anchor {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-bottom: 1.3em;
+    background-color: rgba(252, 252, 252, 0);
+}
+
+.btn-react {
+    background-color: rgb(2, 211, 218);
+    color: white;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-right: 0.2em;
+    margin-left: 0.1em;
+    padding: 1em;
+    letter-spacing: 0.1rem;
+}
+
+.btn-html {
+    background-color: rgb(218, 124, 2);
+    color: white;
+    border-radius: 15px;
+    margin-right: 0.2em;
+    font-size: 16px;
+    padding: 1em;
+    letter-spacing: 0.1rem;
+}
+
+.btn-python {
+    background-color: rgb(2, 150, 218);
+    color: white;
+    border-radius: 15px;
+    margin-right:0.2;
+    font-size: 16px;
+    padding: 1em;
+    letter-spacing: 0.1rem;
+}
+
+#react {
+    background-color: rgb(2, 211, 218);
+}
+
+#html {
+    background-color: rgb(218, 124, 2);
+}
+
+#python {
+    background-color: rgb(2, 150, 218);
+}
+
 #p-scroll {
-    padding: 20px;
+    padding: 0.2em;
     overflow: scroll;
     overflow-x: hidden;
     height: 90%;
@@ -305,7 +382,7 @@ html {
     color: white;
 }
 
-#pro-card {
+.pro-card {
     background-color: rgba(255, 255, 255, 0.952);
     left: 0;
     right: 0;

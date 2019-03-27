@@ -12,10 +12,18 @@ class Section extends Component {
                             <h1 className="w-style">Welcome to my Website!</h1>
                             <h2 className="w-style">Full stack software developer with 8 years experience in research lab management and operations. Proven ability to work both in teams and independently while applying critical thinking skills and prioritization to detail-oriented tasks near Nashville, TN. I like working with Frontend and Backend languages and always enjoy learning new languages.</h2>
                         </div>
-                        <div className="contact">
-                            <h1 className="w-style">Contact Info:</h1>
-                            <h2 className="w-style">walter.lee.developer@gmail.com</h2>
+                        <div className="justify-content-center">
+                            <div className="contact">
+                                <h1 className="w-style"><span className="contact-span">Contact Info:</span></h1>
+                                <h2 className="w-style"><span className="contact-span">walter.lee.developer@gmail.com</span></h2>
+                            </div>
+                            <div className="contact">
+                                <h1 className="w-style"><span className="contact-span">Education:</span></h1>
+                                <h2 className="w-style"><span className="contact-span">Vanderbilt University</span></h2>
+                                <h2 className="w-style"><span className="contact-span">Bachelor of Science: Neuroscience </span></h2>
+                            </div>
                         </div>
+
                         <div className="languages">
                             <h1 className="w-style">Languages:</h1>
                             <h2 className="l-style">View - ReactJS, React Native, HTML, CSS, JavaScript, C#, Python, SASS</h2>
