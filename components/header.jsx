@@ -7,7 +7,7 @@ class Header extends Component {
             <header className="masthead">
                 <div className="foreground">
                     <div className="header">
-                        <div className="container d-flex h-100 align-items-center">
+                        <div className="container-h d-flex h-100 align-items-center">
                             <div className="mx-auto text-center">
                                 <h1 className="mx-auto my-0 text-uppercase">Walter Lee</h1>
                                 <h2 className="text-white-50 mx-auto mt-2 mb-5">Full Stack Software Developer</h2>

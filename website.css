@@ -1,9 +1,13 @@
-.body {
-    overflow: visible;
-    overflow-x: hidden;
-    max-width: 100%;
+html, body {
+    height: 100%;
+    width: 100%;
     background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%),
     #d2d2d2 url(http://stash.rachelnabors.com/24ways2012/background_clouds.png);
+}
+
+html {
+    overflow: auto;
+    overflow-x: hidden;
 }
 
 * {
@@ -77,8 +81,10 @@
 
 /* header component */
 
-.masthead {
-    /* position: unset !important; */
+.container-h {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .tuna {
@@ -152,38 +158,45 @@
 
 .btn-header {
     background-color: rgb(7, 7, 7);
-    background-size: 1600px 500px;
     color: white;
     border-radius: 15px;
 }
 
 
-/* section component */
+/* about section component */
+
+#about {
+    background-color: black;
+    padding: 1em;
+    padding-bottom: 4em;
+    height: 100%;
+    background-image: url("bootstrap/img/tech.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 85%;
+}
 
 .hero {
-    /* margin: auto; */
+    padding-top: 2em;
+
+}
+
+.w-img {
+    border: 0.3em solid rgb(121, 120, 120);
+    border-radius: 25px;
+    margin-bottom: 1em;
+}
+
+.welcome {
+    border: 0.3em solid rgb(121, 120, 120);
+    border-radius: 25px;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    background-color: midnightblue;
-    width: auto;
-    padding-top: 4em;
-    padding-bottom: 15em;
-    overflow-y: visible;
-
-}
-
-.about-style {
-    height: 100%;
-}
-
-.about-section {
-    padding-top: 2em !important;
-}
-
-.w-img {
-    padding: 2em;
+    width: 85%;
+    margin-bottom: 0.5em;
+    background-color: rgb(63, 143, 196);
 }
 
 .w-style {
@@ -191,6 +204,17 @@
     font-family: Trebuchet MS, sans-serif;
     font-weight: bold;
     font-size: 14px;
+    word-wrap: break-word;
+    padding: 0.8em;
+}
+
+.l-style {
+    color: white;
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    word-wrap: break-word;
+    width: 90%;
 }
 
 .typewriter h1 {
@@ -201,24 +225,24 @@
     margin: 0 auto;
     /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
-    animation:
-      typing 5s steps(40, end);
+    animation: typing 5s steps(40, end);
       /* blink-caret .75s step-end infinite; */
+    padding: 0.5em;
+    font-size: 18px;
 
-    padding: 1em;
   }
 
   .typewriter h2 {
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
-    white-space: nowrap;
+    /* white-space: nowrap; */
     /* Keeps the content on a single line */
     margin: 0 auto;
     /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
-    animation:
-      typing 5s steps(40, end);
+    animation: typing 5s steps(40, end);
       /* blink-caret .75s step-end infinite; */
+
   }
 
   /* The typing effect */
@@ -226,6 +250,37 @@
     from { width: 0 }
     to { width: 100% }
   }
+
+  .contact {
+    border: 0.3em solid rgb(121, 120, 120);
+    border-radius: 25px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 0.5em;
+    background-color: rgb(63, 143, 196);
+  }
+
+  .languages {
+    border: 0.3em solid rgb(121, 120, 120);
+    border-radius: 25px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    padding-bottom: 1em;
+    background-color: rgb(63, 143, 196);
+  }
+
+  .btn-about {
+    margin-top: 1em;
+    background-color: rgb(122, 122, 122);
+    color: white;
+    border-radius: 15px;
+}
 
 
 /* projects component */
@@ -243,15 +298,15 @@
     overflow: scroll;
     overflow-x: hidden;
     height: 90%;
-    background-image: url("bootstrap/img/marble.jpg");
-    background-repeat: no-repeat;
+    background-image: url("bootstrap/img/code.jpg");
+    background-repeat: repeat;
     background-position: center;
     background-color: white;
     color: white;
 }
 
 #pro-card {
-    background-color: rgba(255, 255, 255, 0.815);
+    background-color: rgba(255, 255, 255, 0.952);
     left: 0;
     right: 0;
     margin-left: auto;
@@ -277,6 +332,7 @@ h4 {
 .projects-section {
     padding: 0 !important;
   }
+
 
 /* details component */
 
