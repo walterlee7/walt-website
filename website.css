@@ -177,7 +177,6 @@ html {
 
 .hero {
     padding-top: 2em;
-
 }
 
 .w-img {
@@ -283,11 +282,40 @@ html {
     background-color: rgb(122, 122, 122);
     color: white;
     border-radius: 15px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
 /* projects component */
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.pro-img {
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+#pro-img-text {
+    color: black !important;
+}
+
+#pro-img-text:hover {
+    color: white !important;
+}
 
 #projects {
     height: 100%;
@@ -312,7 +340,7 @@ html {
 
 .pro-title-span {
     background-color: rgba(24, 152, 156, 0.979);
-    border-radius: 5px;
+    border-radius: 15px;
     padding-right: 0.3em;
     padding-left: 0.3em;
 }
@@ -336,6 +364,17 @@ html {
     margin-left: 0.1em;
     padding: 1em;
     letter-spacing: 0.1rem;
+}
+
+#html-anchor {
+    background-color: rgb(235, 134, 2);
+    width: 60%;
+    margin-bottom: 4em;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn-html {
@@ -382,6 +421,13 @@ html {
     color: white;
 }
 
+.pro-lang{
+    background-color:  rgb(218, 124, 2);
+    border-radius: 10px;
+    padding: 0.5em;
+    font-size: 18px;
+}
+
 .pro-card {
     background-color: rgba(255, 255, 255, 0.952);
     left: 0;
@@ -402,7 +448,7 @@ h4 {
 
 @media (min-width: 992px) {
     .projects-section .featured-text {
-      border-left: 0.5rem solid black !important;
+      border-left: none !important;
     }
   }
 

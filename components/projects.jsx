@@ -12,7 +12,7 @@ class Projects extends Component {
                     </h1>
                     <div id="pro-anchor" className="d-flex justify-content-center">
                         <a href="#react" className="btn-react">React</a>
-                        <a href="#html" className="btn-html">HTML</a>
+                        <a href="#html-anchor" className="btn-html">HTML</a>
                         <a href="#python" className="btn-python">Python</a>
                     </div>
                     <div id="react" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
@@ -26,14 +26,16 @@ class Projects extends Component {
                             </div>
                         </div>
                     </div>
+                    <div id="html-anchor"><span className="pro-lang">HTML</span></div>
                     <div id="html" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
-                        <div className="col-xl-8 col-lg-7">
-                            <img className="img-fluid mb-3 mb-lg-0" src="bootstrap/img/questionMark.png" alt="" />
+                        <div className="img-container col-xl-8 col-lg-7">
+                            <a id="pro-img-text" href="https://walterlee7.github.io/covalencelab1/" target="_blank"><div className="img-text">Click to View</div></a>
+                            <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/firstwebsite.png" alt="html website" />
                         </div>
                         <div className="col-xl-4 col-lg-5">
                             <div className="featured-text text-center text-lg-left">
-                                <h4>HTML Project</h4>
-                                <p id="pro-para" className="mb-0">Donec ut ante fringilla, varius ligula vitae, volutpat tortor. Donec porta malesuada dolor, in iaculis enim interdum nec. Morbi faucibus quis eros ac ornare. Sed sit amet eros eu nisi tristique molestie. Donec volutpat placerat molestie. Mauris massa mauris, blandit a consequat quis, dignissim ut ante. Sed sed risus vitae risus imperdiet ultricies. Nulla quam justo, viverra sed viverra non, consequat et sapien. Nullam leo leo, euismod in metus sed, bibendum condimentum lacus. Phasellus at auctor nulla. Nullam purus lectus, congue nec ex quis, mollis laoreet turpis. Duis eu ultricies massa.</p>
+                                <h4>HTML - My First Website</h4>
+                                <p id="pro-para" className="mb-0">This was originally my first HTML website during my Covalence software bootcamp in January 2018, which I has been modified into being just HTML and CSS.</p>
                             </div>
                         </div>
                     </div>
