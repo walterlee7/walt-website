@@ -2,11 +2,16 @@ import React, { Component } from 'react';
 
 class About extends Component {
 
+    refresh() {
+        location.reload();
+    }
+
     render() {
         return (
             <section id="about" className="text-center">
                 <div className="hero">
-                    <img className="w-img" src="bootstrap/img/Walt Image.jpg" height="200" width="200" />
+                    <img onClick={() => { this.refresh(); }}
+                        className="w-img" src="bootstrap/img/Walt Image.jpg" height="200" width="200" />
                     <div className="typewriter">
                         <div className="welcome">
                             <h1 className="w-style">Welcome to my Website!</h1>
