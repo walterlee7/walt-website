@@ -305,8 +305,8 @@ html {
 }
 
 .pro-img {
-    filter: blur(6px);
-    -webkit-filter: blur(6px);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
 
 #pro-img-text {
@@ -506,6 +506,7 @@ html {
     margin-right: auto;
     padding: 1em;
     width: 80%;
+    margin-top: 2em;
 }
 
 h4 {
