@@ -6,8 +6,6 @@ import About from './about';
 import Projects from './projects';
 import Details from './details';
 
-
-
 class App extends Component {
     render() {
         return (
@@ -20,12 +18,6 @@ class App extends Component {
                     <Details />
                 </Fragment>
             </Router>
-
-
-
-
-
-
         );
     }
 }
