@@ -8,7 +8,7 @@ class Projects extends Component {
 
                 <div id="p-scroll">
                     <h1 className="pro-title">
-                        <span className="pro-title-span">My Projects</span>
+                        <span className="panel-shadow pro-title-span">My Projects</span>
                     </h1>
                     <div id="pro-anchor" className="d-flex justify-content-center">
                         <a href="#html-anchor" className="btn-html">HTML</a>
@@ -16,7 +16,7 @@ class Projects extends Component {
                         <a href="#react-anchor" className="btn-react">React</a>
                     </div>
 
-                    <div id="html-anchor"><span className="pro-title-html">HTML</span></div>
+                    <div id="html-anchor"><span className="panel-shadow pro-title-html">HTML</span></div>
 
                     <div id="html" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="img-container col-xl-8 col-lg-7">
@@ -31,7 +31,7 @@ class Projects extends Component {
                         </div>
                     </div>
 
-                    <div id="javascript-anchor"><span className="pro-title-javascript">JavaScript</span></div>
+                    <div id="javascript-anchor"><span className="panel-shadow pro-title-javascript">JavaScript</span></div>
 
                     <div id="javascript" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="img-container col-xl-8 col-lg-7">
@@ -46,7 +46,7 @@ class Projects extends Component {
                         </div>
                     </div>
 
-                    <div id="react-anchor"><span className="pro-title-react">React</span></div>
+                    <div id="react-anchor"><span className="panel-shadow pro-title-react">React</span></div>
 
                     <div id="react" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="col-xl-8 col-lg-7">

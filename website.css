@@ -22,6 +22,10 @@ html {
             box-sizing: content-box;
   }
 
+  .panel-shadow {
+    box-shadow: rgba(0, 0, 0, 0.514) 7px 7px 7px;
+  }
+
 /* nav component */
 
 .iconBtn {
