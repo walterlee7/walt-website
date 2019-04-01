@@ -46,6 +46,19 @@ class Projects extends Component {
                         </div>
                     </div>
 
+                    <div id="javascript" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div className="img-container col-xl-8 col-lg-7">
+                            <a id="pro-img-text-white" href="https://walterlee7.github.io/canvas-fireworks-fullscreen/" target="_blank"><div className="img-text">Click to View</div></a>
+                            <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/fireworks.png" alt="javascript website" />
+                        </div>
+                        <div className="col-xl-4 col-lg-5">
+                            <div className="featured-text text-center text-lg-left">
+                                <h4>JavaScript - Canvas Fireworks Demo</h4>
+                                <p id="pro-para" className="mb-0">This is a Canvas Fireworks demo from https://davidwalsh.name/codepen-demos. I removed the background images and fullscreened the demo.</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div id="react-anchor"><span className="panel-shadow pro-title-react">React</span></div>
 
                     <div id="react" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">

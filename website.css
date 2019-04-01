@@ -321,6 +321,15 @@ html {
     color: white !important;
 }
 
+#pro-img-text-white {
+    color: white !important;
+}
+
+#pro-img-text-white:hover {
+    color: black !important;
+}
+
+
 #projects {
     height: 100%;
     padding-bottom: 0px;
