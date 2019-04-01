@@ -54,7 +54,7 @@ class Projects extends Component {
                         <div className="col-xl-4 col-lg-5">
                             <div className="featured-text text-center text-lg-left">
                                 <h4>JavaScript - Canvas Fireworks Demo</h4>
-                                <p id="pro-para" className="mb-0">This is a Canvas Fireworks demo from https://davidwalsh.name/codepen-demos. I removed the background images and fullscreened the demo.</p>
+                                <p id="pro-para" className="mb-0">This is a Canvas Fireworks demo by Jack Rugile. I removed the background images and fullscreened the demo.</p>
                             </div>
                         </div>
                     </div>
