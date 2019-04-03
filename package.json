@@ -1,13 +1,15 @@
 {
+    "homepage": "https://walterlee7.github.io/walt-website",
     "name": "walt-website",
     "version": "1.0.0",
     "description": "Walter Lee Website",
     "main": "main.js",
     "scripts": {
         "start": "webpack-dev-server --mode development --open --hot",
-        "build": "webpack --mode production",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d client"
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "deploy": "yarn build && gh-pages -d build"
     },
     "author": "Walter Lee",
     "license": "MIT",
@@ -15,6 +17,7 @@
         "react": "^16.8.4",
         "react-dom": "^16.8.4",
         "react-router-dom": "^4.3.1",
+        "react-scripts": "^2.1.8",
         "webpack-cli": "^3.2.3",
         "webpack-dev-server": "^3.2.1"
     },

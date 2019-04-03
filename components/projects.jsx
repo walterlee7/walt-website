@@ -49,6 +49,19 @@ class Projects extends Component {
                     <div id="react-anchor"><span className="panel-shadow pro-title-react">React</span></div>
 
                     <div id="react" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div className="img-container col-xl-8 col-lg-7">
+                            <a id="pro-img-text" href="https://walterlee7.github.io/day11_lab10_react/" target="_blank"><div className="img-text">Click to View</div></a>
+                            <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/chirper.png" alt="react website" />
+                        </div>
+                        <div className="col-xl-4 col-lg-5">
+                            <div className="featured-text text-center text-lg-left">
+                                <h4>React - Chirper</h4>
+                                <p id="pro-para" className="mb-0">This is a ReactJS project that posts text.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="react" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="col-xl-8 col-lg-7">
                             <img className="img-fluid mb-3 mb-lg-0" src="bootstrap/img/questionMark.png" alt="" />
                         </div>
