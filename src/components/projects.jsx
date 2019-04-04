@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 
 class Projects extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            htmlHref: "#html-anchor",
+            javaHref: "#javascript-anchor",
+            reactHref: "#react-anchor",
+        }
+
+    }
 
     render() {
         return (
@@ -11,16 +21,16 @@ class Projects extends Component {
                         <span className="panel-shadow pro-title-span">My Projects</span>
                     </h1>
                     <div id="pro-anchor" className="d-flex justify-content-center">
-                        <a href="#html-anchor" className="btn-html">HTML</a>
-                        <a href="#javascript-anchor" className="btn-javascript">JavaScript</a>
-                        <a href="#react-anchor" className="btn-react">React</a>
+                        <a href={this.state.htmlHref} className="btn-html">HTML</a>
+                        <a href={this.state.javaHref} className="btn-javascript">JavaScript</a>
+                        <a href={this.state.reactHref} className="btn-react">React</a>
                     </div>
 
                     <div id="html-anchor"><span className="panel-shadow pro-title-html">HTML</span></div>
 
                     <div id="html" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="img-container col-xl-8 col-lg-7">
-                            <a id="pro-img-text" href="https://walterlee7.github.io/covalencelab1/" target="_blank"><div className="img-text">Click to View</div></a>
+                            <a id="pro-img-text" href="https://walterlee7.github.io/covalencelab1/" target="_blank" rel="noopener noreferrer"><div className="img-text">Click to View</div></a>
                             <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/firstwebsite.png" alt="html website" />
                         </div>
                         <div className="col-xl-4 col-lg-5">
@@ -35,7 +45,7 @@ class Projects extends Component {
 
                     <div id="javascript" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="img-container col-xl-8 col-lg-7">
-                            <a id="pro-img-text" href="https://walterlee7.github.io/day8_lab8_oop/" target="_blank"><div className="img-text">Click to View</div></a>
+                            <a id="pro-img-text" href="https://walterlee7.github.io/day8_lab8_oop/" target="_blank" rel="noopener noreferrer"><div className="img-text">Click to View</div></a>
                             <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/dice.png" alt="javascript website" />
                         </div>
                         <div className="col-xl-4 col-lg-5">
@@ -50,7 +60,7 @@ class Projects extends Component {
 
                     <div id="react" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="img-container col-xl-8 col-lg-7">
-                            <a id="pro-img-text" href="https://walterlee7.github.io/day11_lab10_react/" target="_blank"><div className="img-text">Click to View</div></a>
+                            <a id="pro-img-text" href="https://walterlee7.github.io/day11_lab10_react/" target="_blank" rel="noopener noreferrer"><div className="img-text">Click to View</div></a>
                             <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/chirper.png" alt="react website" />
                         </div>
                         <div className="col-xl-4 col-lg-5">

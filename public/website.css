@@ -31,14 +31,19 @@ html {
 .iconBtn {
     -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
     box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-    padding: 0.8rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0.6rem;
+    /* padding-left: 0.8rem;
+    padding-right: 0.8rem; */
     font-family: 'Varela Round';
-    font-size: 80%;
+    font-size: 1%;
     text-transform: uppercase;
     letter-spacing: .15rem;
     border: solid black 0.1em;
+    color: rgba(2, 2, 2, 0);
+}
+
+.iconBtn:hover {
+    color: rgba(0, 0, 0, 0);
 }
 
 .git-icon-style {
@@ -48,6 +53,10 @@ html {
     background-position: center;
     background-color: white;
 
+    padding-top: 8.6;
+    padding-right: 13.6;
+    padding-bottom: 4.6;
+
 }
 
 .link-icon-style {
@@ -56,6 +65,15 @@ html {
     background-size: 20px 20px;
     background-position: center;
     background-color: white;
+
+    border-right-width: 1.188;
+    border-left-width: 0.188;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding-right: 17.6;
+    padding-left: 7.6;
+    padding-bottom: 4.6;
+    padding-top: 8.6;
 }
 
 #mainNav.navbar-shrink {

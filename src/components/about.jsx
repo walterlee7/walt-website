@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class About extends Component {
 
     refresh() {
-        location.reload();
+        window.location.reload();
     }
 
     render() {
@@ -11,7 +11,7 @@ class About extends Component {
             <section id="about" className="text-center">
                 <div className="hero">
                     <img onClick={() => { this.refresh(); }}
-                        className="panel-shadow w-img" src="bootstrap/img/Walt Image.jpg" height="200" width="200" />
+                        className="panel-shadow w-img" src="bootstrap/img/Walt Image.jpg" alt="" height="200" width="200" />
                     <div className="typewriter">
                         <div className="panel-shadow welcome">
                             <h1 className="w-style">Welcome to my Website!</h1>

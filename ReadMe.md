@@ -1,6 +1,6 @@
 Walter Lee Project Website: March 17, 2019.
 
-View is built with ReactJS without using create-react-app.
+View is built with ReactJS.
 
 Website theme is based on Grayscale Bootstrap 4 from https://startbootstrap.com/themes/grayscale/.
 

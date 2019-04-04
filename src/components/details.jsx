@@ -8,7 +8,7 @@ class Details extends Component {
                 <div className="container">
                     <div id="details-style" >
                         <p style={{ fontSize: + '20' }}>Site Details</p>
-                        <p style={{ fontSize: + '15' }}>View is built with ReactJS without using create-react-app.</p>
+                        <p style={{ fontSize: + '15' }}>View is built with ReactJS.</p>
                         <p style={{ fontSize: + '15' }}>Website theme is based on <a href="https://startbootstrap.com/themes/grayscale/">Grayscale Bootstrap 4</a>.</p>
                         <br />
                         <p style={{ fontSize: + '20' }}>Acknowledgements</p>
