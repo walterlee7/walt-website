@@ -328,20 +328,33 @@ html {
     z-index: 10;
 }
 
-.pro-nav-btn {
+.pro-prev-btn {
     margin-top: 2em;
-    margin-left: 0.6em;
-    background-color: rgba(122, 122, 122, 0);
+    margin-left: 1em;
+    padding: 0.5em 0.8em;
+    background-color: rgb(250, 37, 37);
     color: white;
-    border-radius: 25px;
+    border-radius: 15px;
     font-size: 14px;
+    letter-spacing: 0;
+}
+
+.pro-next-btn {
+    margin-top: 2em;
+    margin-left: 1em;
+    padding: 0.5em 0.8em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(12, 12, 12);
+    border-radius: 15px;
+    font-size: 14px;
+    letter-spacing: 0;
 }
 
 .pro-last-btn {
     margin-top: 2em;
     margin-left: 1em;
     padding: 0.5em 0.8em;
-    background-color: rgb(114, 182, 97);
+    background-color: rgb(3, 19, 233);
     color: white;
     border-radius: 15px;
     font-size: 14px;

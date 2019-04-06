@@ -39,7 +39,7 @@ class Projects extends Component {
                                 <p id="pro-para" className="mb-0">This was originally my first HTML website during my Covalence software bootcamp that uses only HTML and CSS.</p>
                             </div>
                             <div className="text-center">
-                                <a href={this.state.javaHref}><img className="pro-nav-btn panel-shadow" src="bootstrap/img/rightArrow.png" alt="" height="35" width="35" /></a>
+                                <a href={this.state.javaHref} className="btn pro-next-btn">NEXT</a>
                                 <a href={this.state.reactHref} className="btn pro-last-btn">LAST</a>
                             </div>
 
@@ -59,8 +59,8 @@ class Projects extends Component {
                                 <p id="pro-para" className="mb-0">This was a fun exercise at my Covalence bootcamp to make a dice generator with JavaScript.</p>
                             </div>
                             <div className="text-center">
-                                <a href={this.state.htmlHref}><img className="pro-nav-btn panel-shadow" src="bootstrap/img/leftArrow.png" alt="" height="35" width="35" /></a>
-                                <a href={this.state.reactHref}><img className="pro-nav-btn panel-shadow" src="bootstrap/img/rightArrow.png" alt="" height="35" width="35" /></a>
+                                <a href={this.state.htmlHref} className="btn pro-prev-btn">PREV</a>
+                                <a href={this.state.reactHref} className="btn pro-next-btn">NEXT</a>
                                 <a href={this.state.reactHref} className="btn pro-last-btn">LAST</a>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ class Projects extends Component {
                                 <p id="pro-para" className="mb-0">This is a ReactJS project that posts text.</p>
                             </div>
                             <div className="text-center">
-                                <a href={this.state.javaHref}><img className="pro-nav-btn panel-shadow" src="bootstrap/img/leftArrow.png" alt="" height="35" width="35" /></a>
+                                <a href={this.state.javaHref} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.htmlHref} className="btn pro-last-btn">FIRST</a>
                             </div>
                         </div>
