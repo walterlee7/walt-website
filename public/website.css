@@ -40,7 +40,11 @@ html {
     color: rgba(2, 2, 2, 0);
 }
 
-.iconBtn:hover {
+.iconBtn:hover{
+    color: rgba(0, 0, 0, 0);
+}
+
+.iconBtn:focus{
     color: rgba(0, 0, 0, 0);
 }
 
@@ -322,6 +326,26 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
+}
+
+.pro-nav-btn {
+    margin-top: 2em;
+    margin-left: 0.6em;
+    background-color: rgba(122, 122, 122, 0);
+    color: white;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.pro-last-btn {
+    margin-top: 2em;
+    margin-left: 1em;
+    padding: 0.5em 0.8em;
+    background-color: rgb(114, 182, 97);
+    color: white;
+    border-radius: 15px;
+    font-size: 14px;
+    letter-spacing: 0;
 }
 
 .pro-img {
