@@ -191,7 +191,7 @@ html {
 
 #about {
     background-color: black;
-    padding-bottom: 18em;
+    padding-bottom: 22em;
     height: 100%;
     background-image: url("bootstrap/img/tech.jpg");
     background-repeat: repeat;
@@ -345,6 +345,17 @@ html {
     padding: 0.5em 0.8em;
     background-color: rgb(255, 255, 255);
     color: rgb(12, 12, 12);
+    border-radius: 15px;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+.pro-first-btn {
+    margin-top: 2em;
+    margin-left: 1em;
+    padding: 0.5em 0.8em;
+    background-color: rgb(41, 233, 3);
+    color: black;
     border-radius: 15px;
     font-size: 14px;
     letter-spacing: 0;
@@ -523,6 +534,10 @@ html {
     background-color: rgb(2, 211, 218);
 }
 
+#react-2 {
+    background-color: rgb(2, 211, 218);
+}
+
 .btn-react {
     background-color: rgb(2, 211, 218);
     color: white;
@@ -559,7 +574,6 @@ html {
     height: 100%;
     background-image: url("bootstrap/img/code.jpg");
     background-repeat: repeat;
-    background-position: center;
     background-color: white;
     color: white;
 }

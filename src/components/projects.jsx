@@ -8,6 +8,7 @@ class Projects extends Component {
             htmlHref: "#html-anchor",
             javaHref: "#javascript-anchor",
             reactHref: "#react-anchor",
+            react2Href: "#react-2",
         };
 
     }
@@ -40,7 +41,7 @@ class Projects extends Component {
                             </div>
                             <div className="text-center">
                                 <a href={this.state.javaHref} className="btn pro-next-btn">NEXT</a>
-                                <a href={this.state.reactHref} className="btn pro-last-btn">LAST</a>
+                                <a href={this.state.react2Href} className="btn pro-last-btn">LAST</a>
                             </div>
 
                         </div>
@@ -61,7 +62,8 @@ class Projects extends Component {
                             <div className="text-center">
                                 <a href={this.state.htmlHref} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.reactHref} className="btn pro-next-btn">NEXT</a>
-                                <a href={this.state.reactHref} className="btn pro-last-btn">LAST</a>
+                                <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
+                                <a href={this.state.react2Href} className="btn pro-last-btn">LAST</a>
                             </div>
                         </div>
                     </div>
@@ -80,23 +82,29 @@ class Projects extends Component {
                             </div>
                             <div className="text-center">
                                 <a href={this.state.javaHref} className="btn pro-prev-btn">PREV</a>
+                                <a href={this.state.react2Href} className="btn pro-next-btn">NEXT</a>
+                                <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
+                                <a href={this.state.react2Href} className="btn pro-last-btn">LAST</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="react-2" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div className="img-container col-xl-8 col-lg-7">
+                            <a id="pro-img-text" href="https://walterlee7.github.io/Reacting-To-APIs/" target="_blank" rel="noopener noreferrer"><div className="img-text">Click to View</div></a>
+                            <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/ghibli.png" alt="react website" />
+                        </div>
+                        <div className="col-xl-4 col-lg-5">
+                            <div className="featured-text text-center text-lg-left">
+                                <h4>React - Studio Ghibli API Fetch</h4>
+                                <p id="pro-para" className="mb-0">This React project fetches and displays API data from https://ghibliapi.herokuapp.com/.</p>
+                            </div>
+                            <div className="text-center">
+                                <a href={this.state.reactHref} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.htmlHref} className="btn pro-last-btn">FIRST</a>
                             </div>
                         </div>
                     </div>
-
-                    <div id="react" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
-                        <div className="col-xl-8 col-lg-7">
-                            <img className="img-fluid mb-3 mb-lg-0" src="bootstrap/img/questionMark.png" alt="" />
-                        </div>
-                        <div className="col-xl-4 col-lg-5">
-                            <div className="featured-text text-center text-lg-left">
-                                <h4>React Project</h4>
-                                <p id="pro-para" className="mb-0">Donec ut ante fringilla, varius ligula vitae, volutpat tortor. Donec porta malesuada dolor, in iaculis enim interdum nec. Morbi faucibus quis eros ac ornare. Sed sit amet eros eu nisi tristique molestie. Donec volutpat placerat molestie. Mauris massa mauris, blandit a consequat quis, dignissim ut ante. Sed sed risus vitae risus imperdiet ultricies. Nulla quam justo, viverra sed viverra non, consequat et sapien. Nullam leo leo, euismod in metus sed, bibendum condimentum lacus. Phasellus at auctor nulla. Nullam purus lectus, congue nec ex quis, mollis laoreet turpis. Duis eu ultricies massa.</p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </section >
         );
