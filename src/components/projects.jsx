@@ -7,6 +7,7 @@ class Projects extends Component {
         this.state = {
             htmlHref: "#html-anchor",
             javaHref: "#javascript-anchor",
+            java2Href: "#javascript-2",
             reactHref: "#react-anchor",
             react2Href: "#react-2",
         };
@@ -61,6 +62,27 @@ class Projects extends Component {
                             </div>
                             <div className="text-center">
                                 <a href={this.state.htmlHref} className="btn pro-prev-btn">PREV</a>
+                                <a href={this.state.java2Href} className="btn pro-next-btn">NEXT</a>
+                                <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
+                                <a href={this.state.react2Href} className="btn pro-last-btn">LAST</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr id="javascript-2" />
+
+                    <div id="javascript" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div className="img-container col-xl-8 col-lg-7">
+                            <a id="pro-img-text" href="https://walterlee7.github.io/day9_20180118_lab9/" target="_blank" rel="noopener noreferrer"><div className="img-text">Click to View</div></a>
+                            <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/shapes.png" alt="javascript website" />
+                        </div>
+                        <div className="col-xl-4 col-lg-5">
+                            <div className="featured-text text-center text-lg-left">
+                                <h4>JavaScript - Shape Generator</h4>
+                                <p id="pro-para" className="mb-0">This was a fun exercise at my Covalence bootcamp to make a shape generator with JavaScript.</p>
+                            </div>
+                            <div className="text-center">
+                                <a href={this.state.javaHref} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.reactHref} className="btn pro-next-btn">NEXT</a>
                                 <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
                                 <a href={this.state.react2Href} className="btn pro-last-btn">LAST</a>
@@ -81,7 +103,7 @@ class Projects extends Component {
                                 <p id="pro-para" className="mb-0">This is a ReactJS project that posts text.</p>
                             </div>
                             <div className="text-center">
-                                <a href={this.state.javaHref} className="btn pro-prev-btn">PREV</a>
+                                <a href={this.state.java2Href} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.react2Href} className="btn pro-next-btn">NEXT</a>
                                 <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
                                 <a href={this.state.react2Href} className="btn pro-last-btn">LAST</a>
@@ -89,7 +111,9 @@ class Projects extends Component {
                         </div>
                     </div>
 
-                    <div id="react-2" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
+                    <hr id="react-2" />
+
+                    <div id="react" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="img-container col-xl-8 col-lg-7">
                             <a id="pro-img-text" href="https://walterlee7.github.io/Reacting-To-APIs/" target="_blank" rel="noopener noreferrer"><div className="img-text">Click to View</div></a>
                             <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/ghibli.png" alt="react website" />
@@ -101,7 +125,7 @@ class Projects extends Component {
                             </div>
                             <div className="text-center">
                                 <a href={this.state.reactHref} className="btn pro-prev-btn">PREV</a>
-                                <a href={this.state.htmlHref} className="btn pro-last-btn">FIRST</a>
+                                <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
                             </div>
                         </div>
                     </div>
