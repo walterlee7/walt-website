@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     width: 100%;
     background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%),
-    #d2d2d2 url(http://stash.rachelnabors.com/24ways2012/background_clouds.png);
+    #d2d2d2 url("bootstrap/img/background_clouds.png");
 }
 
 html {
@@ -113,7 +113,7 @@ html {
 
 .tuna {
     animation: walk-cycle 1s steps(12) infinite;
-    background: url(http://stash.rachelnabors.com/img/codepen/tuna_sprite.png) 0 0 no-repeat;
+    background: url("bootstrap/img/tuna_sprite.png") 0 0 no-repeat;
     height: 200px;
     width: 400px;
     position: absolute;
@@ -138,7 +138,7 @@ html {
 
   .foreground {
     animation: parallax_fg linear 10s infinite both;
-    background:  url(http://stash.rachelnabors.com/24ways2012/foreground_grass.png) 0 100% repeat-x;
+    background:  url("bootstrap/img/foreground_grass.png") 0 100% repeat-x;
     z-index: 3;
   }
 
@@ -149,7 +149,7 @@ html {
 
   .midground {
     animation: parallax_mg linear 20s infinite;
-    background:  url(http://stash.rachelnabors.com/24ways2012/midground_grass.png) 0 100% repeat-x;
+    background:  url("bootstrap/img/midground_grass.png") 0 100% repeat-x;
     z-index: 2;
   }
 
@@ -160,11 +160,11 @@ html {
 
   .background {
     background-image:
-      url(http://stash.rachelnabors.com/24ways2012/background_mountain5.png),
-      url(http://stash.rachelnabors.com/24ways2012/background_mountain4.png),
-      url(http://stash.rachelnabors.com/24ways2012/background_mountain3.png),
-      url(http://stash.rachelnabors.com/24ways2012/background_mountain2.png),
-      url(http://stash.rachelnabors.com/24ways2012/background_mountain1.png);
+      url("bootstrap/img/background_mountain5.png"),
+      url("bootstrap/img/background_mountain4.png"),
+      url("bootstrap/img/background_mountain3.png"),
+      url("bootstrap/img/background_mountain2.png"),
+      url("bootstrap/img/background_mountain1.png");
     background-repeat: repeat-x;
     background-position: 0 100%;
     z-index: 1;
