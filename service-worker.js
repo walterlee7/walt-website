@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/walt-website/precache-manifest.8bd900b993bb753b43b327a5330b893b.js"
+  "/walt-website/precache-manifest.1d19a15be814011e17282be9e86e1dd8.js"
 );
 
 workbox.clientsClaim();

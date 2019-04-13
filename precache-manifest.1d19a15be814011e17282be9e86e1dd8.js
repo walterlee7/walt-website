@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/walt-website/static/js/2.00f4a7c7.chunk.js"
   },
   {
-    "revision": "c233e0f479e64b93912643f04e7882ce",
+    "revision": "a086dff514452d32f6907a2f274c53f4",
     "url": "/walt-website/index.html"
   }
 ];
