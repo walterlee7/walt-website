@@ -328,6 +328,17 @@ html {
     z-index: 10;
 }
 
+.pro-top-btn {
+    margin-top: 2em;
+    margin-left: 1em;
+    padding: 0.5em 0.8em;
+    background-color: rgb(117, 8, 145);
+    color: white;
+    border-radius: 15px;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
 .pro-prev-btn {
     margin-top: 2em;
     margin-left: 1em;
@@ -432,6 +443,8 @@ html {
     margin-bottom: 1em;
     background-color: rgba(252, 252, 252, 0);
 }
+
+
 
 #html {
     background-color: rgb(218, 124, 2);
@@ -643,8 +656,8 @@ html {
 
 #p-scroll {
     padding: 0.2em;
-    overflow: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
+    /* overflow-x: hidden; */
     height: 100%;
     background-image: url("bootstrap/img/code.jpg");
     background-repeat: repeat;

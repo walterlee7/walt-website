@@ -5,6 +5,7 @@ class Projects extends Component {
         super(props);
 
         this.state = {
+            topHref: "#pro-anchor",
             htmlHref: "#html-anchor",
             javaHref: "#javascript-anchor",
             java2Href: "#javascript-2",
@@ -131,6 +132,7 @@ class Projects extends Component {
                             <div className="text-center">
                                 <a href={this.state.reactHref} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
+                                <a href={this.state.topHref} className="btn pro-top-btn">TOP</a>
                             </div>
                         </div>
                     </div>
@@ -192,6 +194,7 @@ class Projects extends Component {
                             <div className="text-center">
                                 <a href={this.state.clone2Href} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.cloneHref} className="btn pro-first-btn">FIRST</a>
+                                <a href={this.state.topHref} className="btn pro-top-btn">TOP</a>
                             </div>
                         </div>
                     </div>
