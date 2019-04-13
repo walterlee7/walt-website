@@ -12,6 +12,10 @@
         "eject": "react-scripts eject",
         "deploy": "npm run build && gh-pages -d build"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/walterlee7/walt-website.git"
+    },
     "author": "Walter Lee",
     "license": "MIT",
     "dependencies": {
@@ -19,6 +23,9 @@
         "react-dom": "^16.8.4",
         "react-router-dom": "^5.0.0",
         "react-scripts": "^2.1.8"
+    },
+    "bugs": {
+        "url": "https://github.com/walterlee7/walt-website/issues"
     },
     "devDependencies": {
         "@babel/core": "^7.3.4",
