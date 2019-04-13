@@ -1,11 +1,11 @@
 {
-  "main.js": "/walt-website/static/js/main.f3cc9fd8.chunk.js",
-  "main.js.map": "/walt-website/static/js/main.f3cc9fd8.chunk.js.map",
-  "runtime~main.js": "/walt-website/static/js/runtime~main.47dee758.js",
-  "runtime~main.js.map": "/walt-website/static/js/runtime~main.47dee758.js.map",
-  "static/js/2.00f4a7c7.chunk.js": "/walt-website/static/js/2.00f4a7c7.chunk.js",
-  "static/js/2.00f4a7c7.chunk.js.map": "/walt-website/static/js/2.00f4a7c7.chunk.js.map",
-  "index.html": "/walt-website/index.html",
-  "precache-manifest.70b7f02b54510a2acddeefd30965c977.js": "/walt-website/precache-manifest.70b7f02b54510a2acddeefd30965c977.js",
-  "service-worker.js": "/walt-website/service-worker.js"
+  "main.js": "/static/js/main.f3cc9fd8.chunk.js",
+  "main.js.map": "/static/js/main.f3cc9fd8.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.00f4a7c7.chunk.js": "/static/js/2.00f4a7c7.chunk.js",
+  "static/js/2.00f4a7c7.chunk.js.map": "/static/js/2.00f4a7c7.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.f2100ad8a68bc811de1c2ebf828474fb.js": "/precache-manifest.f2100ad8a68bc811de1c2ebf828474fb.js",
+  "service-worker.js": "/service-worker.js"
 }
