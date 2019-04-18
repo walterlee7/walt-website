@@ -26,6 +26,7 @@ class Projects extends Component {
                     <h1 className="pro-title">
                         <span className="panel-shadow pro-title-span">My Projects</span>
                     </h1>
+
                     <div id="pro-anchor" className="d-flex justify-content-center">
                         <a href={this.state.htmlHref} className="btn-html">HTML</a>
                         <a href={this.state.javaHref} className="btn-javascript">JavaScript</a>
@@ -34,6 +35,10 @@ class Projects extends Component {
 
                     <div id="pro-clone-anchor" className="d-flex justify-content-center">
                         <a href={this.state.cloneHref} className="btn-clone">Clone</a>
+                    </div>
+
+                    <div className="panel-shadow">
+                        <p className="frontend-style">This section showcases my Frontend projects on Github.</p>
                     </div>
 
                     <div id="html-anchor"><span className="panel-shadow pro-title-html">HTML</span></div>

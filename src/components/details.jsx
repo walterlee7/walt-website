@@ -10,6 +10,7 @@ class Details extends Component {
                         <p style={{ fontSize: + '20' }}>Site Details</p>
                         <p style={{ fontSize: + '15' }}>View is built with ReactJS.</p>
                         <p style={{ fontSize: + '15' }}>Website theme is based on <a href="https://startbootstrap.com/themes/grayscale/" target="_blank" rel="noopener noreferrer">Grayscale Bootstrap 4</a>.</p>
+                        <p style={{ fontSize: + '15' }}>Thank you to Github Pages for publishing frontend projects.</p>
                         <br />
                         <p style={{ fontSize: + '20' }}>Acknowledgements</p>
                         <p style={{ fontSize: + '15' }}>Cat walking animation by <a href="https://codepen.io/rachelnabors/" target="_blank" rel="noopener noreferrer">Rachel Nabors</a>.</p>
