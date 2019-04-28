@@ -42,7 +42,7 @@ class Projects extends Component {
                         <p className="frontend-style">This section showcases my Frontend projects on Github.</p>
                     </div>
 
-                    <div id="html-section"><span className="panel-shadow pro-title-html">HTML</span></div>
+                    <div id="html-anchor"><span className="panel-shadow pro-title-html">HTML</span></div>
 
                     <div id="html" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="img-container col-xl-8 col-lg-7">
