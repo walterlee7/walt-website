@@ -702,6 +702,10 @@ html {
     color: white;
 }
 
+#pro-clone-anchor {
+    margin-top: 1em;
+}
+
 .pro-card {
     background-color: rgba(255, 255, 255, 0.952);
     left: 0;
