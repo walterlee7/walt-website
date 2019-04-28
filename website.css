@@ -449,7 +449,7 @@ html {
     padding-left: 0.5em;
 }
 
-#pro-section {
+.pro-section {
     left: 0;
     right: 0;
     margin-left: auto;
@@ -500,7 +500,7 @@ html {
     font-size: 18px;
 }
 
-#html-section {
+#html-anchor {
     background-color: rgb(235, 134, 2);
     width: 60%;
     margin-bottom: 4em;
