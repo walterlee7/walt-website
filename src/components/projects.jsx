@@ -56,7 +56,7 @@ class Projects extends Component {
                             </div>
                             <div className="text-center">
                                 <a href={this.state.javaHref} className="btn pro-next-btn">NEXT</a>
-                                <a href={this.state.react2Href} className="btn pro-last-btn">LAST</a>
+                                <a href={this.state.react3Href} className="btn pro-last-btn">LAST</a>
                             </div>
 
                         </div>
@@ -77,7 +77,7 @@ class Projects extends Component {
                             <div className="text-center">
                                 <a href={this.state.htmlHref} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.java2Href} className="btn pro-next-btn">NEXT</a>
-                                <a href={this.state.react2Href} className="btn pro-last-btn">LAST</a>
+                                <a href={this.state.react3Href} className="btn pro-last-btn">LAST</a>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ class Projects extends Component {
                                 <a href={this.state.javaHref} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.reactHref} className="btn pro-next-btn">NEXT</a>
                                 <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
-                                <a href={this.state.react2Href} className="btn pro-last-btn">LAST</a>
+                                <a href={this.state.react3Href} className="btn pro-last-btn">LAST</a>
                             </div>
                         </div>
                     </div>
@@ -119,6 +119,7 @@ class Projects extends Component {
                                 <a href={this.state.java2Href} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.react2Href} className="btn pro-next-btn">NEXT</a>
                                 <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
+                                <a href={this.state.react3Href} className="btn pro-last-btn">LAST</a>
                             </div>
                         </div>
                     </div>
