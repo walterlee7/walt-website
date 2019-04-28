@@ -5,13 +5,14 @@ class Projects extends Component {
         super(props);
 
         this.state = {
-            topHref: "#pro-anchor",
-            htmlHref: "#html-anchor",
-            javaHref: "#javascript-anchor",
+            topHref: "#pro-section",
+            htmlHref: "#html-section",
+            javaHref: "#javascript-section",
             java2Href: "#javascript-2",
-            reactHref: "#react-anchor",
+            reactHref: "#react-section",
             react2Href: "#react-2",
-            cloneHref: "#clone-anchor",
+            react3Href: "#react-3",
+            cloneHref: "#clone-section",
             clone2Href: "#clone-2",
             clone3Href: "#clone-3",
         };
@@ -27,7 +28,7 @@ class Projects extends Component {
                         <span className="panel-shadow pro-title-span">My Projects</span>
                     </h1>
 
-                    <div id="pro-anchor" className="d-flex justify-content-center">
+                    <div id="pro-section" className="d-flex justify-content-center">
                         <a href={this.state.htmlHref} className="btn-html">HTML</a>
                         <a href={this.state.javaHref} className="btn-javascript">JavaScript</a>
                         <a href={this.state.reactHref} className="btn-react">React</a>
@@ -41,7 +42,7 @@ class Projects extends Component {
                         <p className="frontend-style">This section showcases my Frontend projects on Github.</p>
                     </div>
 
-                    <div id="html-anchor"><span className="panel-shadow pro-title-html">HTML</span></div>
+                    <div id="html-section"><span className="panel-shadow pro-title-html">HTML</span></div>
 
                     <div id="html" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="img-container col-xl-8 col-lg-7">
@@ -61,7 +62,7 @@ class Projects extends Component {
                         </div>
                     </div>
 
-                    <div id="javascript-anchor"><span className="panel-shadow pro-title-javascript">JavaScript</span></div>
+                    <div id="javascript-section"><span className="panel-shadow pro-title-javascript">JavaScript</span></div>
 
                     <div id="javascript" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="img-container col-xl-8 col-lg-7">
@@ -102,7 +103,7 @@ class Projects extends Component {
                         </div>
                     </div>
 
-                    <div id="react-anchor"><span className="panel-shadow pro-title-react">React</span></div>
+                    <div id="react-section"><span className="panel-shadow pro-title-react">React</span></div>
 
                     <div id="react" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="img-container col-xl-8 col-lg-7">
@@ -136,13 +137,34 @@ class Projects extends Component {
                             </div>
                             <div className="text-center">
                                 <a href={this.state.reactHref} className="btn pro-prev-btn">PREV</a>
+                                <a href={this.state.react3Href} className="btn pro-next-btn">NEXT</a>
+                                <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr id="react-3" />
+
+                    <div id="react" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div className="img-container col-xl-8 col-lg-7">
+                            <a id="pro-img-text" href="https://walterlee7.github.io/react-us-state-capital-quiz/" target="_blank" rel="noopener noreferrer"><div className="img-text">Click to View</div></a>
+                            <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/stateQuiz.png" alt="react website" />
+                        </div>
+                        <div className="col-xl-4 col-lg-5">
+                            <div className="featured-text text-center text-lg-left">
+                                <h4>React - U.S. State Capital Quiz</h4>
+                                <p id="pro-para" className="mb-0">This React project fetches a JSON of questions of U.S. state capitals and turns it into a quiz.</p>
+                            </div>
+                            <div className="text-center">
+                                <a href={this.state.react2Href} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
                                 <a href={this.state.topHref} className="btn pro-top-btn">TOP</a>
                             </div>
                         </div>
                     </div>
 
-                    <div id="clone-anchor"><span className="panel-shadow pro-title-clone">Clone</span></div>
+                    <div id="clone-section"><span className="panel-shadow pro-title-clone">Clone</span></div>
 
                     <div className="panel-shadow">
                         <p className="clone-style">This section showcases my Github projects that were cloned from amazing programmers that I am refactoring over time.</p>

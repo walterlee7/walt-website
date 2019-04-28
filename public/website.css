@@ -449,7 +449,7 @@ html {
     padding-left: 0.5em;
 }
 
-#pro-anchor {
+#pro-section {
     left: 0;
     right: 0;
     margin-left: auto;
@@ -500,7 +500,7 @@ html {
     font-size: 18px;
 }
 
-#html-anchor {
+#html-section {
     background-color: rgb(235, 134, 2);
     width: 60%;
     margin-bottom: 4em;
@@ -539,7 +539,7 @@ html {
     font-size: 18px;
 }
 
-#javascript-anchor {
+#javascript-section {
     background-color: rgb(218, 2, 2);
     width: 60%;
     margin-bottom: 4em;
@@ -571,7 +571,7 @@ html {
     font-size: 18px;
 }
 
-#python-anchor {
+#python-section {
     background-color: rgb(2, 150, 218);
     width: 60%;
     margin-bottom: 4em;
@@ -590,7 +590,12 @@ html {
     background-color: rgba(255, 0, 0, 0);
     padding: 1.6em;
     width: 80%;
+}
 
+#react-3 {
+    background-color: rgba(255, 0, 0, 0);
+    padding: 1.6em;
+    width: 80%;
 }
 
 .btn-react {
@@ -611,7 +616,7 @@ html {
     font-size: 18px;
 }
 
-#react-anchor {
+#react-section {
     background-color: rgb(2, 211, 218);
     width: 60%;
     margin-bottom: 4em;
@@ -640,7 +645,7 @@ html {
     color: black;
 }
 
-#clone-anchor {
+#clone-section {
     background-color: white;
     width: 60%;
     margin-bottom: 4em;
