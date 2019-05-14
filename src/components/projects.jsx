@@ -12,6 +12,7 @@ class Projects extends Component {
             reactHref: "#react-section",
             react2Href: "#react-2",
             react3Href: "#react-3",
+            vueHref: "#vue-section",
             cloneHref: "#clone-section",
             clone2Href: "#clone-2",
             clone3Href: "#clone-3",
@@ -32,6 +33,7 @@ class Projects extends Component {
                         <a href={this.state.htmlHref} className="btn-html">HTML</a>
                         <a href={this.state.javaHref} className="btn-javascript">JavaScript</a>
                         <a href={this.state.reactHref} className="btn-react">React</a>
+                        <a href={this.state.vueHref} className="btn-vue">Vue</a>
                     </div>
 
                     <div id="pro-clone-anchor" className="d-flex justify-content-center">
@@ -56,7 +58,7 @@ class Projects extends Component {
                             </div>
                             <div className="text-center">
                                 <a href={this.state.javaHref} className="btn pro-next-btn">NEXT</a>
-                                <a href={this.state.react3Href} className="btn pro-last-btn">LAST</a>
+                                <a href={this.state.vueHref} className="btn pro-last-btn">LAST</a>
                             </div>
 
                         </div>
@@ -77,7 +79,7 @@ class Projects extends Component {
                             <div className="text-center">
                                 <a href={this.state.htmlHref} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.java2Href} className="btn pro-next-btn">NEXT</a>
-                                <a href={this.state.react3Href} className="btn pro-last-btn">LAST</a>
+                                <a href={this.state.vueHref} className="btn pro-last-btn">LAST</a>
                             </div>
                         </div>
                     </div>
@@ -98,7 +100,7 @@ class Projects extends Component {
                                 <a href={this.state.javaHref} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.reactHref} className="btn pro-next-btn">NEXT</a>
                                 <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
-                                <a href={this.state.react3Href} className="btn pro-last-btn">LAST</a>
+                                <a href={this.state.vueHref} className="btn pro-last-btn">LAST</a>
                             </div>
                         </div>
                     </div>
@@ -119,7 +121,7 @@ class Projects extends Component {
                                 <a href={this.state.java2Href} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.react2Href} className="btn pro-next-btn">NEXT</a>
                                 <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
-                                <a href={this.state.react3Href} className="btn pro-last-btn">LAST</a>
+                                <a href={this.state.vueHref} className="btn pro-last-btn">LAST</a>
                             </div>
                         </div>
                     </div>
@@ -140,7 +142,7 @@ class Projects extends Component {
                                 <a href={this.state.reactHref} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.react3Href} className="btn pro-next-btn">NEXT</a>
                                 <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
-
+                                <a href={this.state.vueHref} className="btn pro-last-btn">LAST</a>
                             </div>
                         </div>
                     </div>
@@ -159,6 +161,26 @@ class Projects extends Component {
                             </div>
                             <div className="text-center">
                                 <a href={this.state.react2Href} className="btn pro-prev-btn">PREV</a>
+                                <a href={this.state.vueHref} className="btn pro-next-btn">NEXT</a>
+                                <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="vue-section"><span className="panel-shadow pro-title-vue">Vue</span></div>
+
+                    <div id="vue" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div className="img-container col-xl-8 col-lg-7">
+                            <a id="pro-img-text" href="https://walterlee7.github.io/vue-js-tutorial/" target="_blank" rel="noopener noreferrer"><div className="img-text">Click to View</div></a>
+                            <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/vueTutorial.png" alt="react website" />
+                        </div>
+                        <div className="col-xl-4 col-lg-5">
+                            <div className="featured-text text-center text-lg-left">
+                                <h4 id="pro-para-vue">Vue - Vue.js Directive Tutorial</h4>
+                                <p id="pro-para-vue" className="mb-0">This is an introduction to Vue.js directives.</p>
+                            </div>
+                            <div className="text-center">
+                                <a href={this.state.react3Href} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
                                 <a href={this.state.topHref} className="btn pro-top-btn">TOP</a>
                             </div>
