@@ -1,6 +1,8 @@
-Walter Lee Project Website: March 17, 2019.
+## Walter Lee Project Website: March 17, 2019.
 
 View is built with ReactJS.
+
+My published projects are displayed at [walterlee.net](https://walterlee.net).
 
 Website theme is based on Grayscale Bootstrap 4 from https://startbootstrap.com/themes/grayscale/.
 
