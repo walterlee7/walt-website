@@ -12,6 +12,7 @@ class Projects extends Component {
             reactHref: "#react-section",
             react2Href: "#react-2",
             react3Href: "#react-3",
+            react4Href: "#react-4",
             vueHref: "#vue-section",
             cloneHref: "#clone-section",
             clone2Href: "#clone-2",
@@ -130,13 +131,13 @@ class Projects extends Component {
 
                     <div id="react" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="img-container col-xl-8 col-lg-7">
-                            <a id="pro-img-text" href="https://walterlee7.github.io/Reacting-To-APIs/" target="_blank" rel="noopener noreferrer"><div className="img-text">Click to View</div></a>
-                            <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/ghibli.png" alt="react website" />
+                            <a id="pro-img-text" href="https://walterlee7.github.io/react-redux-project/" target="_blank" rel="noopener noreferrer"><div className="img-text">Click to View</div></a>
+                            <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/redux.png" alt="react website" />
                         </div>
                         <div className="col-xl-4 col-lg-5">
                             <div className="featured-text text-center text-lg-left">
-                                <h4>React - Studio Ghibli API Fetch</h4>
-                                <p id="pro-para" className="mb-0">This React project fetches and displays API data from <a href="https://ghibliapi.herokuapp.com/" target="_blank" rel="noopener noreferrer">the studio website</a>.</p>
+                                <h4>React - Redux Counter</h4>
+                                <p id="pro-para" className="mb-0">This React project uses Redux to store state data showcased thru a number counter.</p>
                             </div>
                             <div className="text-center">
                                 <a href={this.state.reactHref} className="btn pro-prev-btn">PREV</a>
@@ -151,6 +152,27 @@ class Projects extends Component {
 
                     <div id="react" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="img-container col-xl-8 col-lg-7">
+                            <a id="pro-img-text" href="https://walterlee7.github.io/Reacting-To-APIs/" target="_blank" rel="noopener noreferrer"><div className="img-text">Click to View</div></a>
+                            <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/ghibli.png" alt="react website" />
+                        </div>
+                        <div className="col-xl-4 col-lg-5">
+                            <div className="featured-text text-center text-lg-left">
+                                <h4>React - Studio Ghibli API Fetch</h4>
+                                <p id="pro-para" className="mb-0">This React project fetches and displays API data from <a href="https://ghibliapi.herokuapp.com/" target="_blank" rel="noopener noreferrer">the studio website</a>.</p>
+                            </div>
+                            <div className="text-center">
+                                <a href={this.state.react2Href} className="btn pro-prev-btn">PREV</a>
+                                <a href={this.state.react4Href} className="btn pro-next-btn">NEXT</a>
+                                <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
+                                <a href={this.state.vueHref} className="btn pro-last-btn">LAST</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr id="react-4" />
+
+                    <div id="react" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div className="img-container col-xl-8 col-lg-7">
                             <a id="pro-img-text" href="https://walterlee7.github.io/react-us-state-capital-quiz/" target="_blank" rel="noopener noreferrer"><div className="img-text">Click to View</div></a>
                             <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/stateQuiz.png" alt="react website" />
                         </div>
@@ -160,7 +182,7 @@ class Projects extends Component {
                                 <p id="pro-para" className="mb-0">This React project fetches a JSON of questions of U.S. state capitals and turns it into a quiz.</p>
                             </div>
                             <div className="text-center">
-                                <a href={this.state.react2Href} className="btn pro-prev-btn">PREV</a>
+                                <a href={this.state.react3Href} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.vueHref} className="btn pro-next-btn">NEXT</a>
                                 <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
                             </div>
@@ -180,7 +202,7 @@ class Projects extends Component {
                                 <p id="pro-para-vue" className="mb-0">This is an introduction to Vue.js directives.</p>
                             </div>
                             <div className="text-center">
-                                <a href={this.state.react3Href} className="btn pro-prev-btn">PREV</a>
+                                <a href={this.state.react4Href} className="btn pro-prev-btn">PREV</a>
                                 <a href={this.state.htmlHref} className="btn pro-first-btn">FIRST</a>
                                 <a href={this.state.topHref} className="btn pro-top-btn">TOP</a>
                             </div>
