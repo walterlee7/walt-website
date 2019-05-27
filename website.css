@@ -586,13 +586,7 @@ html {
     background-color: rgb(2, 211, 218);
 }
 
-#react-2 {
-    background-color: rgba(255, 0, 0, 0);
-    padding: 1.6em;
-    width: 80%;
-}
-
-#react-3 {
+#react-2, #react-3, #react-4 {
     background-color: rgba(255, 0, 0, 0);
     padding: 1.6em;
     width: 80%;
