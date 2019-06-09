@@ -586,7 +586,7 @@ html {
     background-color: rgb(2, 211, 218);
 }
 
-#react-2, #react-3, #react-4 {
+#react-2, #react-3, #react-4 #react-5 {
     background-color: rgba(255, 0, 0, 0);
     padding: 1.6em;
     width: 80%;
@@ -619,12 +619,6 @@ html {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-}
-
-#react-3 {
-    background-color: rgba(255, 0, 0, 0);
-    padding: 1.6em;
-    width: 80%;
 }
 
 #vue {
