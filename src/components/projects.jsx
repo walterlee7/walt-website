@@ -132,8 +132,8 @@ class Projects extends Component {
 
                     <div id="react" className="pro-card row align-items-center no-gutters mb-4 mb-lg-5">
                         <div className="img-container col-xl-8 col-lg-7">
-                            <a id="pro-img-text" href="https://walterlee7.github.io/react-redux-project/" target="_blank" rel="noopener noreferrer"><div className="img-text">Click to View</div></a>
-                            <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/redux.png" alt="react website" />
+                            <a id="pro-img-text" href="https://walterlee7.github.io/react-material-ui-project/" target="_blank" rel="noopener noreferrer"><div className="img-text">Click to View</div></a>
+                            <img className="pro-img img-fluid mb-3 mb-lg-0" src="pro-imgs/material-ui.png" alt="react website" />
                         </div>
                         <div className="col-xl-4 col-lg-5">
                             <div className="featured-text text-center text-lg-left">
