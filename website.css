@@ -301,7 +301,7 @@ html {
     background-color: rgb(63, 143, 196);
   }
 
-  .btn-about {
+  .btn-about, .btn-my-projects {
     margin-top: 1em;
     background-color: rgb(122, 122, 122);
     color: white;
@@ -317,12 +317,24 @@ html {
     font-size: 16px;
 }
 
-.btn-about:hover {
+.btn-resume:hover {
+    background-color: grey;
+}
+
+.btn-resume:focus, .btn-my-projects:focus {
+    color: white;
+}
+
+.btn-about:hover, .btn-my-projects:focus {
     color: white;
 }
 
 .btn-resume:after {
     color: white;
+}
+
+.btn-my-projects:hover {
+    background-color: blue;
 }
 
 
