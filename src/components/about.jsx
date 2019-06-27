@@ -34,9 +34,9 @@ class About extends Component {
                             <h1 className="w-style about-font">Languages:</h1>
                             <h2 className="l-style about-font">View - ReactJS, Vue.js, React Native, HTML, CSS, JavaScript, C#, Python, SASS, Redux</h2>
                             <h2 className="l-style about-font">Framework - Bootstrap, NodeJS, Django, ASP.NET</h2>
-                            <h2 className="l-style about-font">Database - MySQL, MS SQL Server</h2>
+                            <h2 className="l-style about-font">Database - Google Firebase, MySQL, MS SQL Server</h2>
                         </div>
-                        <a href="#projects" className="btn btn-about js-scroll-trigger about-font panel-shadow">My Projects</a>
+                        <a href="#projects" className="btn btn-my-projects js-scroll-trigger about-font panel-shadow">My Projects</a>
                     </div>
                 </div>
             </section >
